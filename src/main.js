@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import IdleApp from './Main.vue'
 
-createApp(App).mount('#app')
+const app = createApp(IdleApp)
+app.mount('#idle')
